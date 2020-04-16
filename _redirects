@@ -1,7 +1,11 @@
-# Redirects to my websites based on the path
+# Redirects to my other websites or profiles based on the path
 
-/blog         https://benjamin.caradeuc.info/blog
 /github       https://github.com/benavern
 /twitter      https://twitter.com/benavern
+/linkedin     https://www.linkedin.com/in/benjamincaradeuc
 
-/*            https://benjamin.caradeuc.info
+
+# Default: Redirects to my own website
+# ex: /blog, /about, /contact, ...
+
+/*            https://benjamin.caradeuc.info/:splat
